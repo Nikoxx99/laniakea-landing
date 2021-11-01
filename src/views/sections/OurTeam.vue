@@ -57,7 +57,7 @@
           },
           {
             title: 'Beta Tester / Co-Fundador',
-            name: 'Seuseng Yong Chang',
+            name: 'Seuseng Yong',
             socialLinks: [
               { link: 'https://linkedin.com', icon: 'mdi-linkedin' },
               { link: 'https://twitter.com', icon: 'mdi-twitter' },

@@ -17,8 +17,7 @@
         rounded
         color="offblack"
         dark
-        href="https://laniakea.live/comentarios"
-        target="_blank"
+        to="/comentarios"
       >
         <span
           class="font-weight-medium text-none"

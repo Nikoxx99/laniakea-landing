@@ -26,8 +26,9 @@
                 <base-subheading
                   title="Sincroniza tus videos favoritos con tus amigos en segundos."
                 />
+                <p>Del hawaiano Laniakea, ‘cielos inconmensurables’</p>
                 <base-body
-                  text="Laniakea te permite compartir un momento agradable con tus amigos sin preocuparte por velocidades lentas de internet."
+                  text="Te permite compartir un momento agradable con tus amigos sin preocuparte por velocidades lentas de internet."
                 />
                 <base-btn
                   rounded
@@ -45,9 +46,10 @@
                 md="6"
               >
                 <v-img
+                  class="floating-island"
                   :src="require('@/assets/camping.svg')"
-                  min-height="365px"
-                  max-width="650px"
+                  min-height="565px"
+                  max-width="850px"
                 />
               </v-col>
             </v-row>
@@ -65,5 +67,19 @@
 </script>
 
 <style lang="scss" scoped>
+  .floating-island {
+    animation: floatAnim 6s ease-in-out infinite;
+  }
 
+  @keyframes floatAnim {
+    0% {
+      transform: translate(1px,3px);
+    }
+    50% {
+      transform: translate(1px,18px);
+    }
+    100% {
+      transform: translate(1px,3px);
+    }
+  }
 </style>

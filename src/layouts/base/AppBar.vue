@@ -92,7 +92,7 @@
         drawer: false,
         items: [
           { name: 'Home', icon: 'mdi-home' },
-          { name: 'Comentarios', icon: 'mdi-phone' },
+          { name: 'Comentarios', icon: 'mdi-newspaper' },
         ],
       }
     },
