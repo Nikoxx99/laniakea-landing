@@ -13,6 +13,7 @@ export default {
           email: { value: 'sample@example.com', icon: 'mdi-email' },
         },
         recentNews: [
+          'Mejoras en el reproductor movil y de escritorio',
           'Nuevo reproductor implementado.',
           'Mejorada la interfaz del chat',
           'Ahora puedes cambiar el video sin cambiar la sesión',
